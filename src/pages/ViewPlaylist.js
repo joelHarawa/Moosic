@@ -10,7 +10,7 @@ const AnimationName = keyframes`
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 `;
-
+const nothing = 6;
 const Container = styled.div`
   height: 92vh;
   width: 100%;
