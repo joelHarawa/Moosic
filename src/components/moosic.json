@@ -1,0 +1,103 @@
+{
+  "moods": {
+    "Dreamy": [
+      {
+        "name": "First Class",
+        "uri" : "spotify:track:0wHFktze2PHC5jDt3B17DC"
+      }
+    ],
+    "Dancy": [
+      {
+        "name": "Popular",
+        "uri" : "spotify:track:6WzRpISELf3YglGAh7TXcG"
+      }
+    ],
+    "Happy",
+    "Sad",
+    "Energetic",
+    "Calm",
+    "Romantic",
+    "Uplifting",
+    "Melancholic",
+    "Motivational": [
+      {
+        "name": "Just Believe",
+        "uri" : "spotify:track:2QZuuHydaM9b3NCklAKZbS"
+      }
+    ],
+    "Mysterious": [
+      {
+        "name": "Late Nights & Heartbreak",
+        "uri" : "spotify:track:5JtgrxeDRTTcBsYwKoYb8v"
+      },
+      {
+        "name": "That's How You Feel",
+        "uri" : "spotify:track:41a7dZcq30Ss5kPMayWRV0"
+      }
+    ],
+    "Playful",
+    "Serene": [
+      {
+        "name": "Tarika Blue",
+        "uri" : "spotify:track:4iyH37AHAkYK1MVhveeqcm"
+      }
+    ],
+    "Triumphant": [
+      {
+        "name": "INDUSTRY BABY",
+        "uri" : "spotify:track:5Z9KJZvQzH6PFmb8SNkxuk"
+      },
+      {
+        "name": "The Glory",
+        "uri" : "spotify:track:0lWjRSzq5chA9fps3pM8Zr"
+      }
+    ],
+    "Hopeful",
+    "Nostalgic",
+    "Gloomy": [
+      {
+        "name": "Once an Addict - Interlude",
+        "uri" : "0Px86mRlxdB3YqpK6KXWlr"
+      }
+    ],
+    "Whimsical",
+    "Reflective": [
+      {
+        "name": "Back In Traffic",
+        "uri" : "spotify:track:569BY50TiwaEnAQYI4F6r0"
+      },
+      {
+        "name": "Crack Music",
+        "uri" : "spotify:track:4fRTe59xEeNHT4uyAGsV27"
+      }
+    ],
+    "Peaceful",
+    "Intense": [
+      {
+        "name": "Hard Piano",
+        "uri" : "spotify:track:3HgA5R5alihocnOYE9ihpS"
+      }
+    ],
+    "Lit",
+    "Hype",
+    "Gassed",
+    "Down Bad",
+    "Low",
+    "Hopeless",
+    "Stressed",
+    "Chill",
+    "Pumped",
+    "Royal": [
+      {
+        "name": "Gotta Have It",
+        "uri" : "spotify:track:5Pt83OUaK3K9C2if4C5JOk"
+      }
+    ],
+    "Gritty": [
+      {
+        "name": "Long Live the Chief",
+        "uri" : "spotify:track:5M708qYwdT7xyQqO0WXnzm"
+      }
+    ]
+  }
+}

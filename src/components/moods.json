@@ -1,0 +1,33 @@
+{
+  "moods": [
+    "Happy",
+    "Sad",
+    "Energetic",
+    "Calm",
+    "Romantic",
+    "Uplifting",
+    "Melancholic",
+    "Motivational",
+    "Dreamy",
+    "Mysterious",
+    "Playful",
+    "Serene",
+    "Triumphant",
+    "Hopeful",
+    "Nostalgic",
+    "Gloomy",
+    "Whimsical",
+    "Reflective",
+    "Peaceful",
+    "Intense",
+    "Lit",
+    "Hype",
+    "Gassed",
+    "Down Bad",
+    "Low",
+    "Hopeless",
+    "Stressed",
+    "Chill",
+    "Pumped"
+  ]
+}
