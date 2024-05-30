@@ -30,19 +30,35 @@ const Center = styled.div`
   flex-direction: column;
 `;
 const ContentBox = styled.div`
+    display: flex;
+    flex-direction: column;
     background-color: #0E0B16;
     padding: 1%;
     width:60%;
 `;
 
-const Greeting = styled.h1`
-    color: #4717F6;
+const MobileContentBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  background-color: #0E0B16;
+  padding: 1%;
+  width:80%;
 `;
 
+const Greeting = styled.h1`
+    color: #4717F6;
+    font-size: 5vh;
+`;
+
+const MobileGreeting = styled.h1`
+    color: #4717F6;
+    font-size: 4vh;
+`;
 
 const Home = () => {
     const token = window.localStorage.getItem("token");
     const [username, setUsername] = useState("Guest");
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
 
     useEffect(() => {
@@ -59,6 +75,8 @@ const Home = () => {
                 .catch((error) => {
                     console.error("Error fetching user data:", error);
                 })
+        } else {
+            setUsername("Guest");
         }
     }, [token]);
 
@@ -67,12 +85,20 @@ const Home = () => {
         <Navbar/>
         <Container>
             <Center>
-                <ContentBox>
-                    {}
-                    <Greeting>Hi, {username}</Greeting>
-                    <Greeting>How are you feeling right now?</Greeting>
-                    <SearchMood/>
-                </ContentBox>
+                {isMobile ? (
+                    <MobileContentBox>
+                        <MobileGreeting>Hi, {username}</MobileGreeting>
+                        <MobileGreeting>How are you feeling right now?</MobileGreeting>
+                        <SearchMood/>
+                    </MobileContentBox>
+                ) : (
+                    <ContentBox>
+                        <Greeting>Hi, {username}</Greeting>
+                        <Greeting>How are you feeling right now?</Greeting>
+                        <SearchMood/>
+                    </ContentBox>
+                )}
+
 
             </Center>
 

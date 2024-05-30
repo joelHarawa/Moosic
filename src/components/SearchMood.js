@@ -1,16 +1,18 @@
 import React, {useEffect, useState} from "react";
 import styled from "styled-components";
 import {Link} from "react-router-dom";
+import {SearchFunction} from "./SearchFunction";
 let moodData = require("./moods.json");
 
 const Input = styled.input`
   background-color: #0E0B16;
   color: #A239CA;
   border: none;
-  width: 100%;
+  width: 80%;
   font-size: 25px;
   padding-top: 20px;
   outline: none;
+  display: flex;
 `;
 
 const Dropdown = styled.ul`
@@ -44,8 +46,6 @@ const SearchMood = () => {
     })
 
 
-    const trackURI = ["spotify:track:6Kj17Afjo1OKJYpf5VzCeo", "spotify:track:5r30gHLxvhp60XMc5TIIMh", "spotify:track:4Flfb4fGscN9kXPOduQLrv"]
-
 
     useEffect(() => {
         if (token) {
@@ -65,7 +65,7 @@ const SearchMood = () => {
     }, [token]);
 
 
-    const searchFunction = () => {
+    const searchFunction = (mood) => {
         const playlistData = {
             name: "My Mood Playlist",
             description: "A playlist based on my current mood",
@@ -83,6 +83,7 @@ const SearchMood = () => {
             .then(response => response.json())
             .then(data => {
                 console.log('Playlist created:', data);
+
 
                 fetch(`https://api.spotify.com/v1/playlists/${data.id}/tracks?uris=${trackURI}`, {
                     method: 'POST',
@@ -134,7 +135,7 @@ const SearchMood = () => {
             <Dropdown>
                 {filteredMoods.map((mood, index) => (
                     <Link to="/view" key={index}>
-                        <Result onClick={searchFunction} key={index}>{mood}</Result>
+                        <Result onClick={searchFunction(mood)} key={index}>{mood}</Result>
                     </Link>
                 ))}
             </Dropdown>

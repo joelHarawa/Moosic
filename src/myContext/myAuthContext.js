@@ -4,7 +4,7 @@ export const AuthContext = createContext();
 
 export const AuthProvider = ({children}) => {
     const CLIENT_ID = "69df94900568478790af02c965324d0f";
-    const REDIRECT_URI = "app.moosic.xyz";
+    const REDIRECT_URI = "https://app.moosic.xyz/";
     const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
     const RESPONSE_TYPE = "token";
     const SCOPES = ["playlist-modify-public", "playlist-modify-private", "playlist-read-private", "playlist-read-collaborative"];

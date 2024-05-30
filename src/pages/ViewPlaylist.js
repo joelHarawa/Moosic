@@ -5,6 +5,9 @@ import SearchMood from "../components/SearchMood";
 
 import {AuthContext} from "../myContext/myAuthContext";
 
+const Information = styled.p`
+    color: #A239CA;
+`;
 const AnimationName = keyframes`
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
@@ -142,7 +145,7 @@ const ViewPlaylist = () => {
                     <ContentBox>
                         <Title>{playlistName}</Title>
                         {playlist.length === 0 ? (
-                            <p>Loading...</p>
+                            <Information>Loading...</Information>
                         ) : (
                             <Playlist>
                                 {playlist.map((song) => (

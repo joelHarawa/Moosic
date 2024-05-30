@@ -4,11 +4,11 @@ import {Link} from "react-router-dom";
 import {AuthContext} from "../myContext/myAuthContext";
 
 const Container = styled.div`
-    height:8vh;
+    height:10vh;
     background-color: #0E0B16;
 `;
 const Wrapper = styled.div`
-    padding: 10px 20px;
+    padding: 1vh 1vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +32,7 @@ const Center = styled.div`
 `;
 
 const Logo = styled.h1`
-    font-size: 32px;
+    font-size: 6vh;
     font-weight: bold;
     cursor: pointer;
     color: #A239CA;
@@ -43,7 +43,7 @@ const Logo = styled.h1`
 `;
 
 const MenuItem = styled(Link)`
-    font-size: 16px;
+    font-size: 2vh;
     cursor: pointer;
     margin-left: 25px;
     text-decoration: none;

@@ -8,7 +8,7 @@
     "react-scripts": "^5.0.1",
     "styled-components": "^5.3.10"
   },
-  "homepage": "https://joelHarawa.github.io/Moosic",
+  "homepage": "https://app.moosic.xyz/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

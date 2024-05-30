@@ -12,13 +12,42 @@
         "uri" : "spotify:track:6WzRpISELf3YglGAh7TXcG"
       }
     ],
-    "Happy",
-    "Sad",
-    "Energetic",
-    "Calm",
-    "Romantic",
-    "Uplifting",
-    "Melancholic",
+    "Happy": [
+      {
+        "name": "Happy",
+        "uri" : "spotify:track:60nZcImufyMA1MKQY3dcCH"
+      }
+    ],
+    "Sad": [
+      {
+
+      }
+    ],
+    "Energetic": [
+      {
+
+      }
+    ],
+    "Calm": [
+      {
+
+      }
+    ],
+    "Romantic": [
+      {
+
+      }
+    ],
+    "Uplifting": [
+      {
+
+      }
+    ],
+    "Melancholic": [
+      {
+
+      }
+    ],
     "Motivational": [
       {
         "name": "Just Believe",
@@ -35,7 +64,11 @@
         "uri" : "spotify:track:41a7dZcq30Ss5kPMayWRV0"
       }
     ],
-    "Playful",
+    "Playful": [
+      {
+
+      }
+    ],
     "Serene": [
       {
         "name": "Tarika Blue",
@@ -52,15 +85,27 @@
         "uri" : "spotify:track:0lWjRSzq5chA9fps3pM8Zr"
       }
     ],
-    "Hopeful",
-    "Nostalgic",
+    "Hopeful": [
+      {
+
+      }
+    ],
+    "Nostalgic": [
+      {
+
+      }
+    ],
     "Gloomy": [
       {
         "name": "Once an Addict - Interlude",
         "uri" : "0Px86mRlxdB3YqpK6KXWlr"
       }
     ],
-    "Whimsical",
+    "Whimsical": [
+      {
+
+      }
+    ],
     "Reflective": [
       {
         "name": "Back In Traffic",
@@ -71,22 +116,62 @@
         "uri" : "spotify:track:4fRTe59xEeNHT4uyAGsV27"
       }
     ],
-    "Peaceful",
+    "Peaceful": [
+      {
+
+      }
+    ],
     "Intense": [
       {
         "name": "Hard Piano",
         "uri" : "spotify:track:3HgA5R5alihocnOYE9ihpS"
       }
     ],
-    "Lit",
-    "Hype",
-    "Gassed",
-    "Down Bad",
-    "Low",
-    "Hopeless",
-    "Stressed",
-    "Chill",
-    "Pumped",
+    "Lit": [
+      {
+
+      }
+    ],
+    "Hype": [
+      {
+
+      }
+    ],
+    "Gassed": [
+      {
+
+      }
+    ],
+    "Down Bad": [
+      {
+
+      }
+    ],
+    "Low": [
+      {
+
+      }
+    ],
+    "Hopeless": [
+      {
+
+      }
+    ],
+    "Stressed": [
+      {
+
+      }
+    ],
+    "Chill": [
+      {
+
+      }
+    ],
+    "Pumped": [
+      {
+
+      }
+    ],
     "Royal": [
       {
         "name": "Gotta Have It",
